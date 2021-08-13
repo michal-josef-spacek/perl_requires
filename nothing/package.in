@@ -1,0 +1,9 @@
+package Foo;
+
+sub echo {
+	print "Foo\n";
+}
+
+package main;
+
+use Foo;

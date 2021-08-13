@@ -1,0 +1,1 @@
+use Any::Moose qw(Role);

@@ -1,0 +1,2 @@
+# 'use' does not accept module name with .pm
+use 'Ignore.pm';

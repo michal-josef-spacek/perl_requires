@@ -1,0 +1,2 @@
+# Do not ignore line which contains '->' in a coment
+use base 'Alpha';    # L -> L

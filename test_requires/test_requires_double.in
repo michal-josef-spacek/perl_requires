@@ -1,0 +1,1 @@
+use Test::Requires { 'Test::Pod' => 1.46 };

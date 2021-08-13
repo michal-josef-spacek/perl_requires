@@ -1,0 +1,3 @@
+my $foo = 2;
+my $bar = 1;
+require Alpha if $foo > $bar;

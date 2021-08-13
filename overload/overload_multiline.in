@@ -1,0 +1,4 @@
+# Only a module 'overload' should be reported from the file
+use overload
+    '+' => \&myadd,
+    '-' => \&mysub;

@@ -1,0 +1,2 @@
+use constant WANTED => 1;
+use if WANTED, Alpha => qw(Beta);

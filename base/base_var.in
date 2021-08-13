@@ -1,0 +1,2 @@
+use constant TARGET_CLASS => __PACKAGE__->load_subclass('Sys::Info::Driver::%s::OS');
+use base TARGET_CLASS;

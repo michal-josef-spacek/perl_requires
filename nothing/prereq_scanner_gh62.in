@@ -1,0 +1,3 @@
+# https://github.com/rjbs/Perl-PrereqScanner/issues/62
+foo (with => [], bar => qr/./, );
+%foo = (with => [], bar => qr/./);

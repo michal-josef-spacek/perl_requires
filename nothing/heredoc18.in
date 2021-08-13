@@ -1,0 +1,4 @@
+$trase = q!<<TEST help
+   package In::Quoted::SectionP;
+   use In::Quoted::SectionR;
+!;

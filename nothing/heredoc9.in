@@ -1,0 +1,3 @@
+push @LIB, <<EOF;
+use push
+EOF

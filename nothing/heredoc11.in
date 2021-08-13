@@ -1,0 +1,4 @@
+my $template = $self->note_template( $log, << "HERE" );
+perldelta: $section [pending]
+use 
+HERE

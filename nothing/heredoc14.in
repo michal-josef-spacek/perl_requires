@@ -1,0 +1,8 @@
+# Multiple here-docs does not properly. The skipping finish on the first tag
+myfunc(<< "THIS", 23, <<'THAT');
+package THIS;
+use THIS;
+THIS
+package THATP;
+use THATR;
+THAT

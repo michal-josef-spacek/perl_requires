@@ -1,0 +1,4 @@
+$pod .= << 'HERE';
+package Simply::PodP;
+use Simply::PodR;
+HERE

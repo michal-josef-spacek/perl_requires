@@ -1,0 +1,7 @@
+# Should not break test
+if (defined $::RD_TRACE) {
+    Parse::RecDescent::_trace(q{<<'.Parse::RecDescent::_matchtracemessage($self,1).' rule>>},
+    Parse::RecDescent::_tracefirst($_[1]),
+    q{' . $self->{"name"} .'},
+    $tracelevel)
+}

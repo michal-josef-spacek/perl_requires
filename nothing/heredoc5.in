@@ -1,0 +1,5 @@
+my $test = <<'@'
+package temp;
+require temp also should not be found in a text
+@
+;

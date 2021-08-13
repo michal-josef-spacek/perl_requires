@@ -1,0 +1,11 @@
+#
+# Dist-Zilla-5.027/lib/Dist/Zilla/Plugin/MakeMaker.pm
+# None of requirement before last '!' should not be reported
+my $template = q!
+package Template;
+use strict;
+use warnings;
+
+use ExtUtils::MakeMaker{{ defined $eumm_version && 0+$eumm_version ? ' ' . $eumm_version : '' }};
+
+!;

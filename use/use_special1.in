@@ -1,0 +1,5 @@
+# Should not hang the test
+sub demo {
+  $foobarbaztest++ if  /\s*= <<'/x;
+  use Alpha
+}

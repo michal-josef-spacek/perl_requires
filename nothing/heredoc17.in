@@ -1,0 +1,4 @@
+print <<'1234';
+package Number::As::TagP;
+use Number::As::TagR;
+1234

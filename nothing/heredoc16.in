@@ -1,0 +1,5 @@
+$cost = <<\VISTA;   # Same thing!
+ That'll be $10 please, ma'am.
+package VistaP
+use VistaR
+VISTA

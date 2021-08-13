@@ -1,0 +1,10 @@
+#--------------------------------------------------------------------------
+$ComTab{'c'}=[ 2, 'txt', \&Change,     <<'-X-'                           ]; #ok
+package CommentsP;
+use CommentsR;
+{ print <<'TheEnd'; } $doPrint = 0; goto EOS;
+-X-
+
+ok(153, docat_del($file) eq <<'EOM') ;
+use In::Function;
+EOM

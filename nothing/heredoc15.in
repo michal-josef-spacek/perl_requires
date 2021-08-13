@@ -1,0 +1,6 @@
+s/this/<<E . 'that'
+the other
+package RegexP
+use RegexR
+E
+. 'more '/eg;

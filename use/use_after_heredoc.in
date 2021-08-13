@@ -1,0 +1,4 @@
+# This case should be the last and should be found each time.
+print "<<TEST";
+push @OUT, "return <<'END';\n";
+use Alpha;

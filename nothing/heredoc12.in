@@ -1,0 +1,5 @@
+write_file( File::Spec->catfile( $fulldir, 'bazmarkhian.al' ), <<'EOT' );
+package FooP;
+use FooR;
+1;
+EOT

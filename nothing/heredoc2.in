@@ -1,0 +1,6 @@
+%hash = (
+    "text" => << 'EOT'
+use and require is a horrible stuff
+package EOT
+EOT
+);

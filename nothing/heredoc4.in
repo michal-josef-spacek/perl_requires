@@ -1,0 +1,3 @@
+$test = <<''
+package in::test;
+require test should not be found in a text;

@@ -1,0 +1,14 @@
+use constant COPYRIGHT_SHORT => <<EOF;
+Test::Unit Version $Test::Unit::VERSION
+(c) 2000-2002, 2005 Christian Lemburg, Brian Ewins, et. al.
+use Heredoc::in::Use;
+EOF
+
+  print <<EOF1;
+Usage: $0 [OPTIONS]
+  --defaults-file=name Only read default options from the given file name.
+  --force              Causes mysql_install_db to run even if DNS does not
+		       work.  In that case, grant table entries that normally
+		       use hostnames will use IP addresses.
+  --help               Display this help and exit.                     
+EOF1

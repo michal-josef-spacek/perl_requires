@@ -1,0 +1,5 @@
+$template = <<EXIT;
+package To::Test;
+use to test
+require should be tested too;
+EXIT

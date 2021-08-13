@@ -1,0 +1,8 @@
+sub note_template {
+  my ($self, $log, $text) = @_;
+  my $diff = _prepend_comment( $self->get_diff($log) );
+  return << "HERE";
+package Use::Template;
+use Template;
+HERE
+}

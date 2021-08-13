@@ -1,0 +1,15 @@
+#
+# 'authentication' should not be found, because it is part of "= <<" block
+twitter_api_method suggestion_categories => (
+    path        => 'users/suggestions',
+    method      => 'GET',
+    params      => [],
+    required    => [],
+    returns     => 'ArrayRef',
+    description => <<''
+Returns the list of suggested user categories. The category slug can be used in
+the C<user_suggestions> API method get the users in that category .  Does not
+require authentication
+package authentication;
+
+);

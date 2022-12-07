@@ -1,0 +1,2 @@
+# 'Alpha' should not be found
+use parent qw/-norequire Alpha/;

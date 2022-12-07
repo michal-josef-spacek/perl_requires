@@ -1,0 +1,2 @@
+# 'Alpha', 'Beta' should not be found
+use parent -norequire, 'Alpha', 'Beta';

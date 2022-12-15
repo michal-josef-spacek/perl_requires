@@ -2,7 +2,8 @@ TODO
 ====
 1. zmeň toto: https://metacpan.org/dist/Perl-PrereqScanner/source/lib/Perl/PrereqScanner.pm#L47 na https://metacpan.org/pod/Module::Pluggable a príslušné pluginy ako samostatné moduly, s nejakou (zatiaľ mne nejasnou) mechanikou autoinstall (by Brano)
 2. Add rpm code for check requires to README
-3.
+3. if - if_simple isn't good, depends on Perl version
+4.
 
 Applied
 =======

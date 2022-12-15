@@ -7,6 +7,6 @@
 
 # Perl modules
 
-* Perl::PrereqScanner
-* Perl::PrereqScanner::Lite
-* Perl::PrereqScanner::NotQuiteLite
+* [Perl::PrereqScanner](https://metacpan.org/pod/Perl::PrereqScanner)
+* [Perl::PrereqScanner::Lite](https://metacpan.org/pod/Perl::PrereqScanner::Lite)
+* [Perl::PrereqScanner::NotQuiteLite](https://metacpan.org/pod/Perl::PrereqScanner::NotQuiteLite)
